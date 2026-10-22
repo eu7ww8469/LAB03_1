@@ -9,11 +9,12 @@
 
             Console.Write("Введите второе число: ");
             int b = int.Parse(Console.ReadLine()!);
-
+            Console.Write("Введите второе число: ");
+            int c = int.Parse(Console.ReadLine()!);
             int sum = a + b;
             int diff = a - b;
             int prod = a * b;
-            double avg = (a + b) / 2.0;
+            double avg = (a + b + c) / 3.0;
 
             Console.WriteLine();
             Console.WriteLine($"Сумма: {sum}");
